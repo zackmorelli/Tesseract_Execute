@@ -10,7 +10,7 @@ Tesseract Execute is used to make simple text files from the scanned patient doc
 
 This is neccesary because the scanned documents are saved as PDFs that simply contain an image of the scanned document. This works for record keeping purposes for the clinic, but in order to extract useful information from these documents so they can be used as part of a comprehensive plancheck program, an OCR, like Tesseract, is needed.
 
-Tesseract Execute is meant to be compiled into an executable file so it can be called as needed by the PatientScansOCRBackgroundWorker windows service which monitors the ARIA documents folder.
+Tesseract Execute is meant to be compiled into an executable file so it can be called as needed by the PatientScansOCRBackgroundWorker windows service (separate repo) which monitors the ARIA documents folder.
 
 Please note that the Tesseract library used here is a C# wrapper for a C++ library, so the .NET C++ runtime is required to run it.
 
